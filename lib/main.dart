@@ -722,16 +722,16 @@ class MyApp extends StatelessWidget {
                 child: IconButton(onPressed: (){}, icon: Icon(Icons.settings)),
               ),
               SizedBox(height: 20,),
-              Container(
-                height: 100,
-                width: 100,
-                decoration: BoxDecoration(
-                  color: Colors.blueAccent,
-                  borderRadius: BorderRadius.circular(5)
-                ),
-                child: IconButton(onPressed:(){} , icon: Icon(Icons.home_filled,color: Colors.white,)),
-                
-              ),
+              // Container(
+              //   height: 100,
+              //   width: 100,
+              //   decoration: BoxDecoration(
+              //     color: Colors.blueAccent,
+              //     borderRadius: BorderRadius.circular(5)
+              //   ),
+              //   child: IconButton(onPressed:(){} , icon: Icon(Icons.home_filled,color: Colors.white,)),
+              //
+              // ),
               SizedBox(height: 10,),
               FloatingActionButton(
                 shape: CircleBorder(),
